@@ -992,6 +992,7 @@ body::-webkit-scrollbar {
     font-size: 32px;
     padding:0;
     text-align: center;
+    color: white;
   }
 
   .support__grid {
@@ -1001,8 +1002,8 @@ body::-webkit-scrollbar {
   }
 
   .support__title {
-    font-size: 38px;
-    line-height: 72px;
+    font-size: 32px;
+    line-height: 48px;
     padding: 0;
     text-align: center;
   }
