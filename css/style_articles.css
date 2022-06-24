@@ -69,6 +69,10 @@
 /*Mobile-small*/
 @media (max-width: 639px) {
     .cover {
+        background-image: url('../img/cover.jpg');
+        background-position:center;
+        background-attachment: fixed;
+
         padding: 0;
     }
     .articles {
@@ -90,6 +94,11 @@
         line-height: 24px;
         text-align:justify;
         padding: 8px;
+    }
+
+    .articles__paragraph--date {
+        font-size: 14px;
+        font-style: italic;
     }
 
     .articles__subsection {
@@ -134,6 +143,11 @@
         line-height: 28px;
         text-align:justify;
         padding: 16px;
+    }
+
+    .articles__paragraph--date {
+        font-size: 14px;
+        font-style: italic;
     }
 
     .articles__subsection {
