@@ -980,7 +980,7 @@ body::-webkit-scrollbar {
 /*Mobile (640px-1023px)*/
 @media (min-width: 640px) and (max-width: 1024px) {
   .support {
-    background-position: 100%;
+    background: #f0b000;
   }
   .support__header {
     font-size: 72px;
