@@ -148,7 +148,7 @@
 @media (max-width: 639px) {
     .program {
         display:grid;
-        padding: 16px;
+        padding: 16px 0;
         grid-template-rows: .16fr 1fr;
         align-items: start;
     }
@@ -188,7 +188,7 @@
     
     .program__wall {
         background-color:rgba(0, 0, 0, 0.842);
-        padding: 0 32px;
+        padding: 0 16px;
     }
     
     .program__title {
@@ -200,13 +200,14 @@
 
     .program__title--orange {
         color: rgb(245, 159, 0);
-        line-height: 52px;
+        line-height: 32px;
+        font-size: 24px;
     }
 
     .program__paragraph {
         color: rgb(245, 159, 0);
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 24px;
         text-align:justify;
     }
 
@@ -217,14 +218,14 @@
     .program__list {
         list-style-type: square;
         color: white;
-        padding: 32px;
-        font-size: 20px;
-        line-height: 32px;
+        padding: 16px;
+        font-size: 16px;
+        line-height: 24px;
     }
     
     .program__list-head {
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 24px;
         padding: 16px;
         text-transform: uppercase;
         text-align: justify;

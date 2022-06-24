@@ -101,7 +101,7 @@
 @media (max-width: 639px) {
     .sponsor {
         display:grid;
-        padding: 16px;
+        padding: 16px 0 16px 0;
         grid-template-rows: .16fr 1fr;
         align-items: start;
     }
@@ -126,7 +126,7 @@
     
     .sponsor__subsection {
         display: grid;
-        grid-template-columns: 1fr;  
+        grid-template-columns: 1fr;
     }
     
     .sponsor__subsection--columns {
@@ -142,7 +142,7 @@
     
     .sponsor__wall {
         background-color:rgba(0, 0, 0, 0.842);
-        padding: 0 32px;
+        padding: 0 16px;
     }
     
     .sponsor__title {
@@ -159,8 +159,8 @@
 
     .sponsor__paragraph {
         color: rgb(245, 159, 0);
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 24px;
         text-align:justify;
     }
 

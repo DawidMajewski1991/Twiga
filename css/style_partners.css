@@ -94,22 +94,22 @@
     }
 
     .partner__wall {
-        padding: 0 32px;
+        padding: 0;
         display: grid;
         justify-items: center;
     }
     
     .partner__pic {
-        width: 50%;
+        width: 75%;
         padding: 32px;
     }
     
     .partner__paragraph {
         color: rgb(0, 0, 0);
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 24px;
         text-align:justify;
-        padding: 32px;
+        padding: 16px;
     }
     
     .partner__link-paragraph {

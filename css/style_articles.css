@@ -76,7 +76,7 @@
         width: 100vw;
     }
     .articles__header {
-        line-height:64px;
+        line-height:32px;
         color: #000000;
         font-size: 24px;
         text-align: center;
@@ -86,8 +86,8 @@
     .articles__paragraph {
         color: rgb(0, 0, 0);
         text-transform:none;
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 24px;
         text-align:justify;
         padding: 8px;
     }
@@ -129,7 +129,7 @@
 
     .articles__paragraph {
         color: rgb(0, 0, 0);
-        text-transform: uppercase;
+        text-transform: none;
         font-size: 20px;
         line-height: 28px;
         text-align:justify;

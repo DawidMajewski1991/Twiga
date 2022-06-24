@@ -1,3 +1,5 @@
+/* Make lt 360px */
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -242,7 +244,8 @@ body::-webkit-scrollbar {
   }
 
   .about__paragraph {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -393,7 +396,8 @@ body::-webkit-scrollbar {
   }
 
   .mission__paragraph {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -553,15 +557,20 @@ body::-webkit-scrollbar {
 
   .goal__paragraph {
     font-size: 24px;
-    line-height: 48px;
+    line-height: 32px;
   }
 
   .goal__paragraph--education {
-    padding: 32px;
+    font-size: 18px;
+    padding: 16px;
   }
 
   .goal__paragraph--care {
     text-align: center;
+  }
+
+  .goal__important {
+    font-size: 22px;
   }
 
   .goal__important--care {
@@ -712,7 +721,16 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-items: center;
     grid-gap: 0;
+  }
+
+  .programs__title {
     text-align: center;
+  }
+
+  .programs__paragraph {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .programs__photo {
@@ -829,9 +847,10 @@ body::-webkit-scrollbar {
     color: white;
     text-align: justify;
     text-transform: uppercase;
-    font-size: 20px;
-    line-height: 44px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 0;
+    padding: 16px;
   }
 }
 
@@ -921,20 +940,22 @@ body::-webkit-scrollbar {
 /*Mobile-small (less than 640px)*/
 @media (max-width: 640px) {
   .support {
-    background-position: 100%;
+    background: #f0b000;
   }
   .support__header {
     font-size: 56px;
     line-height: 72px;
     padding: 0;
+    color: white;
     text-align: center;
+    padding: 96px 16px 0 16px;
   }
 
   .support__postheader {
-    font-size: 42px;
-    line-height: 56px;
-
-    padding: 0;
+    font-size: 32px;
+    line-height: 40px;
+    color:white;
+    padding: 0 16px;
     text-align: center;
   }
 
@@ -945,14 +966,14 @@ body::-webkit-scrollbar {
   }
 
   .support__title {
-    font-size: 36px;
-    line-height: 56px;
+    font-size: 24px;
+    line-height: 48px;
     padding: 0;
     text-align: center;
   }
 
   .support__important {
-    font-size: 44px;
+    font-size: 32px;
   }
 }
 
@@ -1163,10 +1184,10 @@ body::-webkit-scrollbar {
     display: inline-block;
     padding: 8px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 36px;
+    line-height: 24px;
     letter-spacing: 2px;
     margin: auto;
   }  
@@ -1251,7 +1272,7 @@ body::-webkit-scrollbar {
 }
 
 /*Mobile-small (less than 640px)*/
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .donate__grid {
     padding: 16px 16px 64px 16px;
     grid-template-columns: 1fr;
@@ -1261,6 +1282,8 @@ body::-webkit-scrollbar {
 
   .donate__paragraph {
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -1748,9 +1771,9 @@ body::-webkit-scrollbar {
     margin: 0;
     text-align: center;
     padding: 96px 8px 24px 8px;
-    line-height: 60px;
+    line-height: 42px;
     color: rgb(0, 149, 207);
-    font-size: 32px;
+    font-size: 30px;
     background-color: #0000009c;
   }
   
@@ -1758,7 +1781,7 @@ body::-webkit-scrollbar {
     margin: 0;
     text-align: center;
     padding: 0 8px 32px 8px;
-    line-height: 64px;
+    line-height: 36px;
     color: rgb(255, 196, 0);
     font-size: 28px;
     background-color: #0000009c;
