@@ -1,5 +1,8 @@
 .cover {
     background-image: url('../img/cover.jpg');
+    background-position:center;
+    background-attachment: fixed;
+    padding: 0;
 }
 
 .articles {
@@ -68,13 +71,6 @@
 
 /*Mobile-small*/
 @media (max-width: 639px) {
-    .cover {
-        background-image: url('../img/cover.jpg');
-        background-position:center;
-        background-attachment: fixed;
-
-        padding: 0;
-    }
     .articles {
         padding: 8px;
         width: 100vw;
@@ -99,6 +95,9 @@
     .articles__paragraph--date {
         font-size: 14px;
         font-style: italic;
+        padding: 0;
+        line-height: 20px;
+        color:#0059ff;
     }
 
     .articles__subsection {
