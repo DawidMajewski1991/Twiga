@@ -527,6 +527,22 @@ body::-webkit-scrollbar {
   font-weight: 700;
 }
 
+.goal__paragraph--info {
+  padding-left: 144px;
+  padding-right: 144px;
+  padding-top: 96px;
+  padding-bottom: 0;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 48px;
+  border-top: 1px solid silver;
+}
+
+.goal__paragraph--info:last-child {
+  border-top: none;
+  padding-bottom: 80px;
+}
+
 .goal__important {
   color:#f0b000;
   font-size: 36px;
@@ -577,6 +593,13 @@ body::-webkit-scrollbar {
     font-size: 24px;
     color:#f0b000;
   }
+
+  .goal__paragraph--info {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 96px;
+    padding-bottom: 0;
+  }
 }
 
 /*Mobile (640px-1023px)*/
@@ -598,6 +621,13 @@ body::-webkit-scrollbar {
 
   .goal__paragraph--care {
     text-align: center;
+  }
+
+  .goal__paragraph--info {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 96px;
+    padding-bottom: 0;
   }
 }
 
@@ -661,10 +691,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-}
-
-.programs--projects {
-  background-image: url('../img/projects.jpg'); /* Photo downloaded from: https://unsplash.com/photos/DDBQWBv-nmk Author: Camilla Frederiksen */
 }
 
 .programs__grid {

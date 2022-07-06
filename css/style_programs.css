@@ -38,6 +38,8 @@
 
 .program--eight {
     background-color: #0f0f0f;
+    background-image: url('../img/program_page_eight.jpg');
+
 }
 
 .program__header {
@@ -607,4 +609,8 @@
         text-align: justify;
         color:#17bdff;
     }
+}
+
+.program__subheader {
+    color: silver;
 }
