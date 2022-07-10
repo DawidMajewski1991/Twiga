@@ -9,23 +9,23 @@
 }
 
 .sponsor--one {
-    background-image: url('../img/areas_page.jpg');
+    background-image: url('../img/areas_page.jpg'); /* Downloaded from: https://unsplash.com/photos/0LwfbRtQ-ac Author: Hu Chen */
 }
 
 .sponsor--two {
-    background-image: url('../img/areas_page_two.jpg');
+    background-image: url('../img/areas_page_two.jpg'); /* Downloaded from: https://unsplash.com/photos/UHXhIiZMm90 Author: Raissa Lara Lütolf (-Fasel) */
 }
 
 .sponsor--three {
-    background-image: url('../img/areas_page_three.jpg');
+    background-image: url('../img/areas_page_three.jpg'); /* Downloaded from: https://unsplash.com/photos/Lfp-LzhQeDU Author: MARIOLA GROBELSKA */
 }
 
 .sponsor--four {
-    background-image: url('../img/areas_page_four.jpg');
+    background-image: url('../img/areas_page_four.jpg'); /* Downloaded from: https://unsplash.com/photos/uf4PZk6p23c Author: Majkl Velner */
 }
 
 .sponsor--five {
-    background-image: url('../img/areas_page_five.jpg');
+    background-image: url('../img/areas_page_five.jpg'); /* Downloaded from: https://unsplash.com/photos/3YrppYQPoCI Author: Guillaume Galtier */
 }
 
 .sponsor__header {

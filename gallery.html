@@ -82,37 +82,15 @@
 
     <main class="main__grid">
 
-        
-
-
-        <section class="gallery">
-                <div class="gallery__slider">
-                    <button class="gallery__arrow gallery__arrow--left" id="previous">ᐸ</button>
-                    <button class="gallery__arrow gallery__arrow--right" id="next">ᐳ</button>
-                    <div class="gallery__screen">
-                        <img src="img/slider/3.jpg" class="gallery__image" id="last">
-                        <img src="img/slider/1.jpg" class="gallery__image">
-                        <img src="img/slider/2.jpg" class="gallery__image">
-                        <img src="img/slider/3.jpg" class="gallery__image">
-                        <img src="img/slider/1.jpg" class="gallery__image" id="first">
-                    </div>
-                </div>
-                
-
-            </article>
+        <section class="slider">
+            <section class="slider__container">
+                <button class="slider__button slider__button--prev" data-button-prev>ᐸ</button>
+                <figure class="slide" data-slide></figure>
+                <button class="slider__button slider__button--next" data-button-next>ᐳ</button>
+            </section>
         </section>
-
-
-
-        
     </main>
 
-
-
-
-
-
-    
     <footer class="footer" id="contact">
         <div class="footer__grid">
             <section class="footer__logo-grid">
@@ -135,6 +113,39 @@
     </footer>
 
     <script src="js/hamburger.js"></script>
-    <script src="js/gallery_slider.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        const imageArr = [
+            'img/slider/pic (1).jpg',
+            'img/slider/pic (2).jpg',
+            'img/slider/pic (3).jpg',
+            'img/slider/pic (4).jpg',
+            'img/slider/pic (5).jpg',
+            'img/slider/pic (6).jpg',
+            'img/slider/pic (7).jpg',
+            'img/slider/pic (8).jpg',
+            'img/slider/pic (9).jpg',
+            'img/slider/pic (10).jpg',
+            'img/slider/pic (11).jpg',
+            'img/slider/pic (12).jpg',
+            'img/slider/pic (13).jpg',
+            'img/slider/pic (14).jpg',
+            'img/slider/pic (15).jpg',
+            'img/slider/pic (16).jpg',
+            'img/slider/pic (17).jpg',
+            'img/slider/pic (18).jpg',
+            'img/slider/pic (19).jpg',
+            'img/slider/pic (20).jpg',
+            'img/slider/pic (21).jpg',
+            'img/slider/pic (22).jpg',
+            'img/slider/pic (23).jpg',
+            'img/slider/pic (24).jpg',
+            'img/slider/pic (25).jpg',
+            'img/slider/pic (26).jpg',
+        ]
+
+        const slider = new Slider(imageArr)
+        slider.initializeSlider();
+    </script>
 </body>
 </html>

@@ -9,37 +9,35 @@
 }
 
 .program--one {
-    background-image: url('../img/program_page.jpg');
+    background-image: url('../img/program_page.jpg'); /* Downloaded from: https://unsplash.com/photos/BDZNYTOAuAw Author: Dym Cozzy */
 }
 
 .program--two {
-    background-image: url('../img/program_page_two.jpg');
+    background-image: url('../img/program_page_two.jpg'); /* Downloaded from: https://unsplash.com/photos/bMKuW3rkftc Author: Moses Sichach */
 }
 
 .program--three {
-    background-image: url('../img/program_page_three.jpg');
+    background-image: url('../img/program_page_three.jpg'); /* Downloaded from: https://unsplash.com/es/fotos/0cgpyigyIkM Author: Annie Spratt */
 }
 
 .program--four {
-    background-image: url('../img/program_page_four.jpg');
+    background-image: url('../img/program_page_four.jpg'); /* Downloaded form: https://unsplash.com/photos/UmC0aBfur5c Author: Ban Yido */
 }
 
 .program--five {
-    background-image: url('../img/program_page_five.jpg');
+    background-image: url('../img/program_page_five.jpg'); /* Downloaded from: https://unsplash.com/photos/I49bIyEHaIs Author: Joshua Hanson */
 }
 
 .program--six {
-    background-image: url('../img/program_page_six.jpg');
+    background-image: url('../img/program_page_six.jpg'); /* Downloaded from: https://unsplash.com/photos/FULkoZ989E4 Author: Esteban Castle */
 }
 
 .program--seven {
-    background-image: url('../img/program_page_seven.jpg');
+    background-image: url('../img/program_page_seven.jpg'); /* Downloaded from: https://unsplash.com/es/fotos/Z_swakd3NMI Author: Thomas Bennie */
 }
 
 .program--eight {
-    background-color: #0f0f0f;
-    background-image: url('../img/program_page_eight.jpg');
-
+    background-image: url('../img/program_page_eight.jpg'); /* Downloaded from: https://unsplash.com/photos/lPPkJ4NfQtQ Author: Roman Nguyen */
 }
 
 .program__header {
